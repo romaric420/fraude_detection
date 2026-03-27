@@ -9,4 +9,4 @@ city                 → Ville du client
 device_type          → Type d'appareil utilisé pour la transaction
 has_loan             → Présence d'un prêt en cours (1 = oui, 0 = non)
 account_age_years    → Ancienneté du compte en années
-is_fraud             → 🎯 Transaction frauduleuse ou non (variable cible)
+is_fraud             → 🎯 Transaction frauduleuse ou non (variable cible, 1 = oui, 0 = non)

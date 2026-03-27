@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+# MLflow
+mlflow.db
+mlruns/
+
+# Data (si pas géré par DVC)
+data/raw_data/
+data/clean_data/
+
+# Modèles sérialisés
+models/*.joblib
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
